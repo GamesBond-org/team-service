@@ -25,7 +25,7 @@ spec:
         - containerPort: 4003
         envFrom:
         - configMapRef:
-            name: team-service-config
+            name: team-service-devconfig
         - secretRef:
             name: team-service-secret
         resources:
